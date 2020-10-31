@@ -1,0 +1,11 @@
+manifest:
+    remotes:
+      - name: ncs
+        url-base: https://github.com/nrfconnect
+    projects:
+      - name: nrf
+        remote: ncs
+        revision: master
+        import: true
+    self:
+      path: bt-ble-mesh
